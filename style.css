@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* First part of liking likes assignment commented out */
+
+  /* 
+
+.first-box{
+  width: 25%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 10px;
+  align-items: center;
+}
+
+.contents{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+#total{
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+button{
+  background-color: yellow;
+  padding: 4px 8px;
+  box-shadow: 2px 2px 4px black;
+  align-items: center;
+}
+
+p{
+  margin-bottom: 15px;
+} */
+
+/* Start of part 2 of the liking likes assignment */
+
+/* Main container */
+.container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+}
+
+/* Header */
+header{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  margin: 15px 0
+}
+
+/* Start of left box and contents */
+
+.left-box{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+/* Left box contents start here */
+.avatar > *{
+  margin-bottom: 15px;
+}
+.avatar{
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  border: 2px solid black;
+}
+
+img{
+  width: 100px;
+  display: block;
+}
+/* Left box and contents ends here */
+
+
+/* Right box starts here */
+.right-box{
+  flex: 2;
+  display: flex;
+}
+
+/* Right box contents start here */
+
+.feed{
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.feed-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+/* Paragraph of what the post says starts here */
+.post{
+  font-size: 18px;
+}
+
+button{
+  background-color: yellow;
+  padding: 4px 8px;
+  box-shadow: 2px 2px 4px black;
+}
+
+/* Right box ends here */
+
+/* Targeting all p tags and a tags */
+
+p{
+  font-weight:bold;
+}
+
+a{
+  color: blue;
+}
